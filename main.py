@@ -4,8 +4,6 @@ import imp
 import mycluster
 import compute
 
-hyperopt = imp.load_source('hyperopt','/usr/local/pkgs/hyperopt/')
-
 gifts = pd.read_csv('gifts.csv')
 
 print('Read gifts.csv')
